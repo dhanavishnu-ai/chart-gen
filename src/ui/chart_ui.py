@@ -53,7 +53,7 @@ class ChartUI:
 
         chart_gen.queue().launch(
             favicon_path="./images/favicon.ico",
-            # auth=("user", "user@1234"),
+            auth=("user", "user@1234"),
             auth_message="Welcome to ChartGen. Please enter the username and password to continue.",
             debug=False,
             show_api=False,
